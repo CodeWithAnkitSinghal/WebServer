@@ -1,0 +1,23 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithAnkitSinghal/WebServer.git"
+  },
+  "author": "Ankit Singhal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithAnkitSinghal/WebServer/issues"
+  },
+  "homepage": "https://github.com/CodeWithAnkitSinghal/WebServer#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
