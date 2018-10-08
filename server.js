@@ -9,7 +9,9 @@ app.get('/', function(req, res){
     });
 });
 
-//
+app.use(express.static(__dirname + '/public'));
+
+//ES5 function syntax
 app.get('/about', function(req, res){
     res.send('About Page');
 });
