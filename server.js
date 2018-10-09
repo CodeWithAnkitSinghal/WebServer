@@ -50,6 +50,12 @@ app.get('/about', function(req, res){
     })
 });
 
+app.get('/projects', (req, res) => {
+    res.render('projects.hbs', {
+        pageTitle: 'Projects'
+    });
+});
+
 //ES6 syntax of arrow function
 app.get('/bad', (req, res) => {
     res.send({
